@@ -1,0 +1,47 @@
+{
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "Сборка С++ С потдержкой русского",
+      "command": "C:\\mingw64\\bin\\g++",
+      "args": [
+        "-o",
+        "${fileBasenameNoExtension}.exe",
+        "${fileBasename}",
+        "-fexec-charset=CP866"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": "build",
+      "detail": "Собственый компилятор с потдержкой русского языка"
+    },
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++.exe сборка активного файла",
+      "command": "C:\\mingw64\\bin\\g++.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Задача создана отладчиком."
+    }
+  ],
+  "version": "2.0.0"
+}
