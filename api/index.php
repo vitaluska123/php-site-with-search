@@ -9,7 +9,7 @@
 <body>
 	<?php
 
-	require "./video/css-guide-.php";
+	require "../video/css-guide-.php";
 
 	function video_Url_to_html($video)
 	{
