@@ -9,7 +9,7 @@
 <body>
 	<?php
 
-	include "../video/css-guide-.php";
+	include "./video/css-guide-.php";
 
 	function video_Url_to_html($video)
 	{
