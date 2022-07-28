@@ -19,6 +19,7 @@
 	$obj = json_decode($json, true);
 	vidCount($obj);
 	PrintVideo($obj);
+
 	?>
 </body>
 
