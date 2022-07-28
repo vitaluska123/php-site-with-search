@@ -4,7 +4,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Links</title>
-	<style type="css/stylesheat"> </style>
 </head>
 
 <body>
