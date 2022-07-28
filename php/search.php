@@ -4,7 +4,7 @@ function search($obj, $search)
 {
 	$vid_count = 0;
 	echo "<div class=\"search\">";
-	echo "<div class=\"serch-text\">По запросу <b> $search </b> найдены следующие видео: <br><br></div>";
+	echo "<div class=\"search-text\">По запросу <b> $search </b> найдены следующие видео: <br><br></div>";
 	for ($g = 1; $g <= count($obj); $g++) {
 		$el = $obj["video" . $g];
 		for ($i = 0; $i < count($el["tags"]); $i++) {
