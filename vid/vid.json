@@ -1,6 +1,26 @@
 {
-	"video1": "EuIshKbzG4I",
-	"video2": "15YMj1NfcNI",
-	"video3": "U9TcC-ZpVzk",
-	"video4": "GD1JLnyqQSs"
+	"video1": {
+		"video1url": "EuIshKbzG4I",
+		"tags": ["tag1", "tag2", "tag3"]
+	},
+	"video2": {
+		"video1url": "15YMj1NfcNI",
+		"tags": ["tag1", "tag2", "tag3", "php"]
+	},
+	"video3": {
+		"video1url": "U9TcC-ZpVzk",
+		"tags": ["tag1", "tag2", "tag3", "xren"]
+	},
+	"video4": {
+		"video1url": "GD1JLnyqQSs",
+		"tags": ["tag1", "tag2", "tag3"]
+	},
+	"video5": {
+		"video1url": "OJ16BaPC6VI",
+		"tags": ["tag1", "tag2", "tag3"]
+	},
+	"video6": {
+		"video1url": "15YMj1NfcNI",
+		"tags": ["php", "Обработка форм", "Урок"]
+	}
 }

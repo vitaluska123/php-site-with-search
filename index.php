@@ -4,35 +4,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Links</title>
+	<style type="css/stylesheat"> </style>
 </head>
 
 <body>
+	<form name="search" action="check.php" method="post">
+		<input type="text" name="searchTxt" placeholder="Поиск">
+		<input type="submit" name="go" value="Найти">
+	</form>
+
 	<?php
+	require(__DIR__ . '/php/allVid.php');
 
 	$json = file_get_contents(__DIR__ . '/vid/vid.json');
 	$obj = json_decode($json, true);
-
-
-	function video_Url_to_html($video, $i)
-	{
-		return "<div class=\"video-div$i\"><iframe class=\"video\" width=\"500\" height=\"315\" src=\"https://www.youtube.com/embed/$video\" title=\"YouTube video player\"frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"allowfullscreen></iframe></div>";
-	}
-	function vidCount($css_guide)
-	{
-		echo "<div class=\"video-count\">Кол-во видео: " . count($css_guide) . "</div>";
-	}
-	function PrintVideo($obj)
-	{
-		for ($i = 1; $i <= count($obj); $i++) {
-			echo video_Url_to_html($obj["video" . $i], $i);
-		}
-	}
-
-
 	vidCount($obj);
 	PrintVideo($obj);
 	?>
-
 </body>
 
 </html>
