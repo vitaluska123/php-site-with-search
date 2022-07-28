@@ -13,9 +13,9 @@
 	$obj = json_decode($json, true);
 
 
-	function video_Url_to_html($video)
+	function video_Url_to_html($video, $i)
 	{
-		return "<div class=\"video-div\"><iframe class=\"video\" width=\"500\" height=\"315\" src=\"https://www.youtube.com/embed/$video\" title=\"YouTube video player\"frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"allowfullscreen></iframe></div>";
+		return "<div class=\"video-div$i\"><iframe class=\"video\" width=\"500\" height=\"315\" src=\"https://www.youtube.com/embed/$video\" title=\"YouTube video player\"frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"allowfullscreen></iframe></div>";
 	}
 	function vidCount($css_guide)
 	{
@@ -24,7 +24,7 @@
 	function PrintVideo($obj)
 	{
 		for ($i = 1; $i <= count($obj); $i++) {
-			echo video_Url_to_html($obj["video" . $i]);
+			echo video_Url_to_html($obj["video" . $i], $i);
 		}
 	}
 
