@@ -1,10 +1,5 @@
 {
 	"version": 2,
 	"builds": [{ "src": "index.php", "use": "vercel-php@0.5.0" }],
-	"rewrites": [
-		{
-			"source": "/check.php",
-			"destination": "/check.php"
-		}
-	]
+	"rewrites": [{ "source": "/check", "destination": "/check.php" }]
 }
