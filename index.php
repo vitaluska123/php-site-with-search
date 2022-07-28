@@ -9,7 +9,7 @@
 <body>
 	<?php
 
-	$json = file_get_contents("vid.json");
+	$json = file_get_contents("video/vid.json");
 	$obj = json_decode($json, true);
 
 
