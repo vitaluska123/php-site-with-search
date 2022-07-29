@@ -9,7 +9,9 @@ function vidCount($css_guide)
 }
 function PrintVideo($obj)
 {
+	echo "<div class=\"allvideo\"><div class=\"allVideo\">";
 	for ($i = 1; $i <= count($obj); $i++) {
 		echo video_Url_to_html($obj["video" . $i]["video1url"]);
 	}
+	echo "</div></div>";
 }
