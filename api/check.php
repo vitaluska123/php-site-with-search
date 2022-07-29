@@ -8,7 +8,7 @@
 </head>
 
 <body>
-	<button onclick="window.location.href='index.php'">
+	<button onclick="window.location.href='/'">
 		<p>Назад</p>
 	</button>
 	<?php
