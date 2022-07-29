@@ -4,7 +4,7 @@ function search($obj, $search)
 {
 	$vid_count = 0;
 	echo "<div class=\"search\">";
-	echo "<div class=\"search-text\">По запросу <b> $search </b> найдены следующие видео: <br><br></div>";
+	echo "<div class=\"searchText\">По запросу <b> $search </b> найдены следующие видео:</div>";
 	for ($g = 1; $g <= count($obj); $g++) {
 		$el = $obj["video" . $g];
 		for ($i = 0; $i < count($el["tags"]); $i++) {
@@ -15,9 +15,9 @@ function search($obj, $search)
 		}
 	}
 	if ($vid_count == 0) {
-		echo "<br>Видео по запросу<b>" . $search . "</b>не найдено!";
+		echo "<div class=\"video-count\"><br>Видео по запросу<b>" . $search . "</b>не найдено!<div>";
 	} else {
-		echo "<br>Всего найдено видео: $vid_count";
+		echo "<div class=\"video-count\"><br>Всего найдено видео: $vid_count<div>";
 	}
 	echo "</div>";
 }

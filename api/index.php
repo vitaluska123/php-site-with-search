@@ -3,8 +3,11 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Links</title>
+	<title>Видео</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="/styles/index.css">
+	<!-- style.css -->
+	<!-- /styles/index.css -->
 </head>
 
 <body>
@@ -12,7 +15,6 @@
 		<h2 class="siteName">Хранилище видео</h2>
 		<form name="search" action="check" method="post">
 			<input class="searchText" type="text" name="searchTxt" placeholder="Поиск">
-			<input class="searchButton" type="submit" name="go" value="Найти">
 		</form>
 	</div>
 

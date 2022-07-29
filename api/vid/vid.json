@@ -1,26 +1,102 @@
 {
 	"video1": {
-		"video1url": "EuIshKbzG4I",
-		"tags": ["tag1", "tag2", "tag3"]
+		"video1url": "Sda2kF9y9Gw",
+		"tags": ["html", "guide", "HTML5"],
+		"plist": "html"
 	},
 	"video2": {
-		"video1url": "15YMj1NfcNI",
-		"tags": ["tag1", "tag2", "tag3", "php"]
+		"video1url": "Sq8hDibfjTk",
+		"tags": ["html", "guide", "HTML5"],
+		"plist": "html"
 	},
 	"video3": {
-		"video1url": "U9TcC-ZpVzk",
-		"tags": ["tag1", "tag2", "tag3", "мемчик"]
+		"video1url": "rmldLuWa2OI",
+		"tags": ["html", "guide", "HTML5"],
+		"plist": "html"
 	},
 	"video4": {
-		"video1url": "GD1JLnyqQSs",
-		"tags": ["tag1", "tag2", "tag3"]
+		"video1url": "YYDH2fnDIfQ",
+		"tags": ["html", "guide", "HTML5"],
+		"plist": "html"
 	},
 	"video5": {
-		"video1url": "OJ16BaPC6VI",
-		"tags": ["tag1", "tag2", "tag3"]
+		"video1url": "IEDUXFtc-vA",
+		"tags": ["html", "guide", "HTML5"],
+		"plist": "html"
 	},
 	"video6": {
-		"video1url": "15YMj1NfcNI",
-		"tags": ["php", "Обработка форм", "Урок"]
+		"video1url": "oRl6HrW9NFs",
+		"tags": ["html", "guide", "HTML5"],
+		"plist": "html"
+	},
+	"video7": {
+		"video1url": "JcWoHHcivko",
+		"tags": ["html", "guide", "HTML5"],
+		"plist": "html"
+	},
+	"video8": {
+		"video1url": "IRzvGMQHkkc",
+		"tags": ["html", "guide", "HTML5"],
+		"plist": "html"
+	},
+	"video9": {
+		"video1url": "Fw679JPOo0w",
+		"tags": ["css", "guide", "css3"],
+		"plist": "css"
+	},
+	"video10": {
+		"video1url": "THkRKsJL4Ac",
+		"tags": ["css", "guide", "css3"],
+		"plist": "css"
+	},
+	"video11": {
+		"video1url": "Dy3xNaSvacE",
+		"tags": ["css", "guide", "css3"],
+		"plist": "css"
+	},
+	"video12": {
+		"video1url": "VlWE8eCz5dE",
+		"tags": ["css", "guide", "css3"],
+		"plist": "css"
+	},
+	"video13": {
+		"video1url": "ziJwJdJXNtU",
+		"tags": ["css", "guide", "css3"],
+		"plist": "css"
+	},
+	"video14": {
+		"video1url": "XhtbLygCpcs",
+		"tags": ["css", "guide", "css3"],
+		"plist": "css"
+	},
+	"video15": {
+		"video1url": "ois3wNS7ZdQ",
+		"tags": ["css", "guide", "css3"],
+		"plist": "css"
+	},
+	"video16": {
+		"video1url": "4dOZkj4VwSM",
+		"tags": ["css", "guide", "css3"],
+		"plist": "css"
+	},
+	"video17": {
+		"video1url": "JgIG6d3JsZs",
+		"tags": ["JavaScript", "guide", "JS"],
+		"plist": "JavaScript"
+	},
+	"video18": {
+		"video1url": "m-4u1RdGBkY",
+		"tags": ["JavaScript", "guide", "JS"],
+		"plist": "JavaScript"
+	},
+	"video19": {
+		"video1url": "tbRM_Gpl_9Y",
+		"tags": ["JavaScript", "guide", "JS"],
+		"plist": "JavaScript"
+	},
+	"video20": {
+		"video1url": "KqtF13jV0rk",
+		"tags": ["JavaScript", "guide", "JS"],
+		"plist": "JavaScript"
 	}
 }

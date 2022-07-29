@@ -1,7 +1,7 @@
 <?php
 function video_Url_to_html($video)
 {
-	return "<div class=\"video-div\"><iframe class=\"video\" width=\"300\" height=\"175\" src=\"https://www.youtube.com/embed/$video\" title=\"YouTube video player\"frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"allowfullscreen></iframe></div>";
+	return "<div class=\"video-div\"><iframe class=\"video\" src=\"https://www.youtube.com/embed/$video\" title=\"YouTube video player\"frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"allowfullscreen></iframe></div>";
 }
 function vidCount($css_guide)
 {
