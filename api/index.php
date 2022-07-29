@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form name="search" action="/check.php" method="post">
+	<form name="search" action="check.php" method="post">
 		<input type="text" name="searchTxt" placeholder="Поиск">
 		<input type="submit" name="go" value="Найти">
 	</form>
